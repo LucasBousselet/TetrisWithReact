@@ -1,0 +1,23 @@
+#ArcadeContainer {
+	width: 100%;
+	height: 100%;
+}
+
+#TetrisGameArea {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	height: 100%;
+	width: 100%;
+}
+
+#TetrisArcadeContainer {
+	display: flex;
+	flex: 1;
+}
+
+div[id^='piece_'] {
+	background: black;
+	border: 1px solid grey;
+}
+
